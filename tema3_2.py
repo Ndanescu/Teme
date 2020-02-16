@@ -1,3 +1,4 @@
+def functia1():
 for i in range(0,100):
     if(i % 3 == 0 and i % 5 == 0):
         print('FizzBuzz')
@@ -7,3 +8,4 @@ for i in range(0,100):
         print('Buzz')
     else:
         print(i)
+functia1()
